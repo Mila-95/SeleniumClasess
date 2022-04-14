@@ -1,0 +1,27 @@
+Selenium class 5:
+
+Handling checkboxes(u can select multiple options) and radiobutton(we can select only one):
+-- if you have only one checkbox or radiobutton you cna just click on in
+--if you have multiple chooses we gonna store them in the list and loop through
+
+DropDowns:
+
+DropDown is a menu whitch gives us opportunity to select one or more options
+Types of DropDowns:
+1.Single select
+2.Multiple select
+
+Handling dropdowns:
+1.click on dropdown and click on the option
+2.Using select class
+            in order to use select class we need to
+            make sure our dropdown has selected tag
+
+Selecting an option from a dropdown can be done in 3 ways:
+1.By index
+2.By visible text
+3.By value
+
+Wherewer you interract with multiple elementl you store them inside the container such as List,Set...
+
+

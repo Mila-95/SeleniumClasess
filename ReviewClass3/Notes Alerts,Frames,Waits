@@ -1,0 +1,31 @@
+Alerts:
+
+1.Web Based Alerts --> HTML can be dealt using selenium
+2.Java script alert
+3.Windows Based alert
+
+Frames:
+U need switch to the frame in order to deal with the desired element
+for switching you use driver.switchTo().frame();
+3 methods.
+1.by the index number of frame.
+2.by the name or id.
+3.by accessing the flame as a WebElement.
+<html>
+   <body>
+     </body>
+   <html>
+
+
+
+
+Explicit wait
+WebDriverWait= wait new WebDriverWait(driver,20);
+
+Why timeout is imported?
+
+wait.until(ExpectedConditions.visibilityOFElementLocated)
+
+Use implicit wait when the element is not even in the dom / needs to
+appear and use explicit wait if the element has
+certain condition associate with it like visibility,clickability,e.t.c
