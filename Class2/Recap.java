@@ -1,4 +1,4 @@
-package com.syntax.Class02;
+package com.syntax.Class2;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

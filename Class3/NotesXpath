@@ -15,6 +15,7 @@ Relative Xpath-->starts from any node in the html
                         it always starts with double slash ( // )
  Syntax for relative Xpath:
  //tagname[@attribute = 'attribute value']
+
  Identifying elements by its text:
  //tagname[text() = 'text value']
  Example:
@@ -63,3 +64,11 @@ Identifying elements by its ancestor
 //tagname[@attribute = 'attribute value']/ancestor::ancestorTagname
 Example:
 //input[@id = 'email']/ancestor::form
+
+HW
+Navigate to http://syntaxprojects.com
+Click on start practicing
+click on simple form demo
+enter any text on first text box
+click on show message
+quit the browser

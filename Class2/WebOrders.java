@@ -1,4 +1,4 @@
-package com.syntax.Class02;
+package com.syntax.Class2;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

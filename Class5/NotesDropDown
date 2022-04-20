@@ -22,6 +22,18 @@ Selecting an option from a dropdown can be done in 3 ways:
 2.By visible text
 3.By value
 
-Wherewer you interract with multiple elementl you store them inside the container such as List,Set...
+Wherever you interact with multiple elementl you store them inside the container such as List,Set...
 
+
+HW1
+Go to facebook sign up page
+Fill out the whole form
+Click signup
+
+HW2
+Go to ebay.com
+get all the categories and print them in the console
+select Computers/Tables & Networking
+click on search
+verify the header
 

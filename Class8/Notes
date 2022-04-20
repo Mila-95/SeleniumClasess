@@ -23,7 +23,8 @@ Explicits Wait--> wait until certain condition
 Fluent wait --> set timeouts,polling and ignore needed exception in the given time
 
 WebTables:
-WevTables are element on the webpage  whitch are constructed by having rows and columns
+
+WevTables are element on the webpage  which are constructed by having rows and columns
 1.Static webtable(nothing changes)
 2.Dynamic webtable(data change inside of your table)
 
@@ -40,6 +41,20 @@ WebTables consist of different sections or parts
          </tr>
    </tbody>
 </table>
+
+HW
+
+go to https://the-internet.herokuapp.com/dynamic_controls
+click on checkbox and click on remove
+verify the text
+click on enable verify the textbox is enabled
+enter text and click disable
+verify the textbox is disabled
+
+create a package and name it as utils
+create a class and name as CommonMethods
+create functions (methods) to open and close and quit the browsers
+open method has to accept a url as a parameter
 
 
 

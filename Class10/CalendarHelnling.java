@@ -27,6 +27,7 @@ public class CalendarHelnling {
         while (!dMonthsText.equals("August")){
             nextButton.click();
             dMonthsText=dMonth.getText();
+
         }
       List<WebElement> departDetes=driver.findElements(By.xpath("//tbody[@class = 'dl-datepicker-tbody-0']/tr/td"));
         for(WebElement departDate:departDetes){

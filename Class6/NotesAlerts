@@ -34,3 +34,17 @@ Selenium Class 6:
    3WebElement
    in alerts -switch to alert and switch automatically back
    in flames -switch to a frame manually and switch manually back to the web page
+
+   Interview question:
+   How do you handle Alerts in selenium?
+   We handle Alerts by using Alert interface
+
+   Task
+   Navigate to https://syntaxprojects.com/bootstrap-iframe.php
+   verify the header text Sorry, We Couldn't Find Anything For “Asksn” is displayed
+   verify enroll today button is enabled
+
+   HW
+   Go to https://syntaxprojects.com/javascript-alert-box-demo.php
+   click on each button and handle the alert accordingly
+

@@ -4,7 +4,7 @@ How to handle Calendars:
 3.If the desired text is not visible --> we will keep clicking on next and keep updating the text of the month
 4.As soon as we found our desired months -->grab all the cells from the table
 5.Loop through the cells
-6.Once the cell value is matched with our condition -->click on the matched date
+6.Once the cell value is matched with our condition --> click on the matched date
 
 
 Why do we need screenshots in testing?
@@ -14,8 +14,16 @@ certain functionality.
 in selenium in order to take screenshots we will be using TakeScreenshot interface
 
 Actions class
-Is given by selenium to capture keybord and mouse events such as:
+Is given by selenium to capture keyboard and mouse events such as:
 move to element
 drag and drop
 double click
 right click on web page
+
+HW
+Go to aa.com/homePage.do
+select depart date
+select return date
+select destination
+click on search
+quit the browser
