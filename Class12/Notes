@@ -1,0 +1,49 @@
+Page Object Model:
+POM-Page Object Model
+is a design pattern which allows us to enhance test maintained and reduce code duplication
+Advantages of POM:
+1.Code reducibility
+2.Code Maintainability
+3.Object repository
+4.Readability
+
+how to implement
+1.POM without PageFactory
+2.POM with PageFactory
+
+PageFactory ia a class witch allows us to interact with stored elements in each class
+
+1)TestBase:
+will consist of opening and closing the browser
+
+    -Setting up property
+    -initialize Webdriver
+    -navigate to url
+    -quit the browser
+
+2)Pages:
+    -Login Page Class
+        -WebElements
+        -username
+        -password
+        -loginButton
+    -DashboardPage
+        -WebElements
+        -Table
+        -Logo
+        -LogoButton
+        -deleteSelectedButton
+        -Checkboxes
+
+
+3)Tests:
+    -LoginPage
+        -Actions
+        -click
+        -sendKeys
+
+4)Utils:
+    -common methods
+    -DataBase utilities
+    BaseClass.tearDown();
+    Driver.Quit():

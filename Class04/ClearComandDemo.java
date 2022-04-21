@@ -1,17 +1,11 @@
-package com.syntax.Class10;
+package com.syntax.Class04;
 
-
-import com.sun.deploy.cache.Cache;
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.io.File;
-import java.io.IOException;
-
-public class TakingScreenshot {
-
-
+public class ClearComandDemo {
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver","drivers/chromedriver");
         WebDriver driver=new ChromeDriver();
@@ -22,17 +16,9 @@ public class TakingScreenshot {
         WebElement password=driver.findElement(By.id("ctl00_MainContent_password"));
         password.sendKeys("test");
         WebElement loginButton= driver.findElement(By.className("button"));
-        loginButton.click();
-
-        TakesScreenshot ts=(TakesScreenshot) driver;
-         File scrFile=ts.getScreenshotAs(OutputType.FILE);//screenshoot is taken ont his step
-        try {
-            FileUtils.copyFile(scrFile,new File("screenshots/SmartBear/adminLogin.png"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
+        Thread.sleep(2000);
+        username.clear();
+        password.clear();
+        driver.quit();
     }
-
-
 }
