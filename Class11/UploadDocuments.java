@@ -16,7 +16,7 @@ public class UploadDocuments {
         fileUplosdLink.click();
 
         WebElement chooseFile=driver.findElement(By.id("file-upload"));
-        chooseFile.sendKeys("/Users/liudmylakushchak/Documents/Batch12/Book1.xlsx");
+        chooseFile.sendKeys("/Users/liudmylakushchak/Documents/Batch12/Book3.xlsx");
 
         WebElement uploadButton=driver.findElement(By.id("file-submit"));
         uploadButton.click();
