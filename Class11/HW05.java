@@ -1,14 +1,10 @@
 package com.syntax.Class11;
-
-import com.sun.javafx.geom.transform.BaseTransform;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.interactions.SourceType;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -135,11 +131,11 @@ perform actions on all dropdowns
             WebElement phoneNumber=driver.findElement(By.id("phonenumber"));
             phoneNumber.sendKeys("123-456-7890");
             WebElement userName=driver.findElement(By.id("username"));
-            userName.sendKeys("mila.milas");
+            userName.sendKeys("mila.mila");
             WebElement email=driver.findElement(By.id("email"));
-            email.sendKeys("mila.milas@gmain.com");
+            email.sendKeys("mila.mila@gmain.com");
             WebElement comment=driver.findElement(By.id("comment"));
-            comment.sendKeys("Im strong independent Ukrainian woman");
+            comment.sendKeys(" Don't mess with Ukraine");
             WebElement pass=driver.findElement(By.id("pwd"));
             pass.sendKeys("1234567890");
             WebElement submitBtm=driver.findElement(By.xpath("//button[@type= 'submit']"));
@@ -218,17 +214,6 @@ perform actions on all dropdowns
              }
 
             driver.quit();
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }

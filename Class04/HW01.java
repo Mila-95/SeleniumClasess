@@ -25,8 +25,6 @@ public  class HW01 {
             System.out.println("Is not displayed");
         }
         driver.quit();
-
-
     }
 }
 
